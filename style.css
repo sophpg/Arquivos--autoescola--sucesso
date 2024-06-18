@@ -1,0 +1,269 @@
+
+body{
+    margin: 0;
+}
+.cabeçalho {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding: 10px 10px;
+    background-color: #FFFF00;
+    font-weight: bold;
+
+}
+
+.título {
+    font-size: 40px;
+    margin-right: 200px;
+    margin-left: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+
+nav ul li a {
+    text-decoration:none;
+    color: #000000;
+}
+
+.corpo {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #FFFF00;
+    font-size: 24px;  
+    text-align: left;
+    border-left: 40px;
+}
+
+.corpo .img {
+    padding-right: 650px;
+    padding-top: 20px;
+    padding-left: 60px;
+    float: right;
+    width: 150px;
+    height: 200px;
+}
+
+.timeline{
+    height: 80%;
+    text-align:
+
+}
+.Localização {
+    margin: 0px 2px 2px 2px;
+    width: 100%;
+    font-size: 54px;
+}
+
+.Localização2 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.loc3{
+    font-size: 54px;
+    font-weight: bold;
+    padding: 150px 10px 10px 280px ;
+}
+
+
+
+.etapas{
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  
+}
+
+.sobre {
+    text-align: center;
+    margin: 0;
+    background-color: #FFFF00;
+    padding: 2px 20px 20px 20px ;
+    font-size: 25px;
+    
+}
+.sobre2{
+    font-size: 54px;
+    font-weight: bold;
+    background-color: #FFFF00;
+    text-align: center;
+    padding-top: 50px;
+}
+sobre h1 {
+    padding-left: 50px;
+
+}
+.sobre .img {
+    padding-left: 60px;
+
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+th, td {
+    border: 20px solid rgba(255, 255, 255, 0);
+    padding: 1px 1px 1px 10px;
+    text-align: left;
+    font-size: 18px;
+    
+    
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30%;
+
+}
+
+.form {
+    align-items: center;
+    max-width: 500px;
+    max-height: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+form h1 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: bold;
+
+}
+
+form p {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.input-single {
+    position: relative;
+    margin: 30px 0;
+
+
+}
+
+.input-single label {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0,2;
+    cursor: text;
+}
+
+.input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 20px;
+    outline: 0;
+    align-items: center;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: rgba(43, 33, 33, 0.603);
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+button { 
+    background-color:#FFFF00;
+    padding: 8px 8px;
+    border: 0;
+    box-shadow: 2px 2px 2px #00000048;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+
+form input [type=submit] {
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color:#FFFF00;
+    color: white;
+    cursor:pointer;
+}
+    
+
+
+div#whatasapp {
+    position: fixed;
+    right: 40px;
+    bottom: 5px;
+    z-index: 999;
+    padding: 10px;
+    transition: .2s;
+}
+
+div#whatasapp:hover {
+    right: 0;
+    bottom: 0;
+    border-radius: 140px 0px 0px 0px;
+    padding: 50px;
+    transition: .5s;
+}
+
+
+.dicas{
+    padding: 30px 40px;
+    background-color: #FFFF00;
+    font-size: 24px;  
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+.space{
+    padding-top: 180px;
+}
+
+.space2{
+    padding-top: 100px;
+}
+
+.space3{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+}
