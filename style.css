@@ -88,29 +88,35 @@ nav ul li a {
   
 }
 
-.sobre {
-    text-align: center;
-    margin: 0;
-    background-color: #FFFF00;
-    padding: 2px 20px 20px 20px ;
-    font-size: 25px;
-    
-}
-.sobre2{
+
+.sobre{
     font-size: 54px;
     font-weight: bold;
     background-color: #FFFF00;
     text-align: center;
     padding-top: 50px;
 }
+
+.sobre2 {
+    text-align: justify;
+    background-color: #FFFF00;
+    padding: 2px 80px 40px 45px ;
+    font-size: 25px;   
+}
+
 sobre h1 {
     padding-left: 50px;
-
 }
-.sobre .img {
-    padding-left: 60px;
 
+
+.sobre2 img {
+    width: 250px;
+    float: left;
+    padding-right: 25px;
+    padding-left: 30px;
 }
+
+
 
 table {
     width: 70%;
@@ -195,10 +201,10 @@ form .input-single .input:valid ~ label{
 }
 
 button { 
-    background-color:#FFFF00;
+    background-color:#ffff00a4;
     padding: 8px 8px;
     border: 0;
-    box-shadow: 2px 2px 2px #00000048;
+    box-shadow: 2px 2px 2px #00000056;
     font-size: 20px;
     font-weight: bold;
     
@@ -241,7 +247,6 @@ div#whatasapp:hover {
     text-align: left;
     padding-left: 20px;
 }
-
 
 
 .space{
